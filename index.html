@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*_zqJUXJaDneHRrXeXtR5vQ.webp);
+            background-size: cover;
+            height: 90vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #caja-login {
+           border-radius: 25px;
+            color: white;
+            text-shadow: 2px 2px 0px black ;
+            background-color: rgba(50, 140, 255, 0.7);
+            box-shadow: 3px 3px 3px black;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        #caja-login img {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div id="caja-login">
+        <h1>Regístrese</h1>
+        <img src="images/usuario.png" alt="">
+        <form action="login.php">
+            <p>
+            <label for="usuario">Usuario</label><input type="text" name="usuario" id="usuario">
+            </p>
+            <p>
+            <label for="contraseña">Contraseña</label><input type="password" name="contraseña" id="contraseña">
+            </p>
+            <input type="submit" value="Regístrarse">
+        </form>
+    </div>
+</body>
+</html>
